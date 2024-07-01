@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: darkkhaki;
+}
+
+#card-space {
+  margin-top: 80px;
+}
+
+#card-space img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+button {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  display: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
