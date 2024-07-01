@@ -1,0 +1,32 @@
+body {
+  background-color: seagreen;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  background-color: thistle;
+  color: black;
+  border-radius: 10px;
+  display: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+
+#card-space {
+  margin-top: 50px;
+}
+
+#card-space img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
